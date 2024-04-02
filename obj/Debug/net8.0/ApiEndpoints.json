@@ -1,0 +1,172 @@
+[
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataLandsatController",
+    "Method": "ThemDanhSachDTL",
+    "RelativePath": "api/DataLandsat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Service_Design_KLTN.DTOs.DataLandsatDTOs.DataLandsatDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataLandsatController",
+    "Method": "CapNhatDanhSachDTL",
+    "RelativePath": "api/DataLandsat",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Service_Design_KLTN.DTOs.DataLandsatDTOs.DataLandsatDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataLandsatController",
+    "Method": "XoaDanhSachDTL",
+    "RelativePath": "api/DataLandsat",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataLandsatController",
+    "Method": "LayDanhSachDTLTheoID",
+    "RelativePath": "api/DataLandsat/{IdData}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdData",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataLandsatController",
+    "Method": "LayDanhSachDTL",
+    "RelativePath": "api/DataLandsat/GetData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gridInfo",
+        "Type": "QuanLySinhVien.DTOs.V_GridInfo.GridInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataSentinelController",
+    "Method": "ThemDanhSachDTS",
+    "RelativePath": "api/DataSentinel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Service_Design_KLTN.DTOs.DataSentinelDTOs.DataSentinelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataSentinelController",
+    "Method": "CapNhatDanhSachDTS",
+    "RelativePath": "api/DataSentinel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Service_Design_KLTN.DTOs.DataSentinelDTOs.DataSentinelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataSentinelController",
+    "Method": "XoaDanhSachDTS",
+    "RelativePath": "api/DataSentinel",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataSentinelController",
+    "Method": "LayDanhSachDTSTheoID",
+    "RelativePath": "api/DataSentinel/{IdData}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdData",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Service_Design_KLTN.Controllers.DataSentinelController",
+    "Method": "LayDanhSachDTS",
+    "RelativePath": "api/DataSentinel/GetData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gridInfo",
+        "Type": "QuanLySinhVien.DTOs.V_GridInfo.GridInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

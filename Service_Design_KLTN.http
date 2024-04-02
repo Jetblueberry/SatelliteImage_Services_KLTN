@@ -1,0 +1,6 @@
+@Service_Design_KLTN_HostAddress = http://localhost:5184
+
+GET {{Service_Design_KLTN_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
